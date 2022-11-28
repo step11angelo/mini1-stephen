@@ -1,12 +1,20 @@
 .top-logo {
-    height: 20px;
+    height: 40px;
 }
 
 .fb-logo {
-    height: 10px;
+    width: 30px;
+    
 }
 
-h1 {
-    padding: 40px;
-    margin: 100px;
+.img-car-history {
+    height: 400px;
+}
+
+
+
+.history-text {
+    
+    width: 40%;
+    text-align: justify;
 }

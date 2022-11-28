@@ -17,14 +17,10 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        background-image: url("./images/honda-city-2021-red-rs.jpg");
-        background-repeat: no-repeat;
-
-        background-size: cover;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="./main.css"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -36,7 +32,6 @@
             class="top-logo"
             src="./images/hondacity-backlogo.jpg"
             alt="top logo"
-            style="height: 20px"
         /></a>
         <button
           class="navbar-toggler"
@@ -59,7 +54,24 @@
                 class="nav-link active"
                 aria-current="page"
                 href="#"
-                >Admins</a
+                >History</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Mission & Vision</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+              >
+                Core Admins</a
               >
             </li>
             <li class="nav-item">
@@ -125,10 +137,23 @@
       </div>
     </nav>
     <div>
-      <h1>Honda City GN Philippines</h1>
+      <h1 class="title">Honda City GN Philippines</h1>
     </div>
-    <section class="admin">
-      <!--Admin section-->
+    <section class="history d-flex justify-content-center">
+      <img
+        src="./images/honda-city-2021-red-rs.jpg"
+        alt="car-image-history"
+        class="img-car-history d-flex"
+      />
+      <div class="d-flex flex-column justify-content-center">
+        <h3>History</h3>
+        <p class="history-text d-flex align-items-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          molesstiae mollitia quasi magni quisquam reprehenderit vero esse cum,
+          deserunt ipsam atque ab ipsum ut consequuntur officia. Dolor magnam
+          sunt unde.
+        </p>
+      </div>
     </section>
     <section class="sponsors">
       <!--Sponsors section-->
