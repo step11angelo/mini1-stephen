@@ -8,13 +8,14 @@
 }
 
 .img-car-history {
-    width: 40vw;
+    width: 30%;
 }
 
 
 
 .history-text {
     
-    width: 40%;
+    
+    width: 100%;
     text-align: justify;
 }
