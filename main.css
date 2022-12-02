@@ -7,11 +7,6 @@
     
 }
 
-.img-car-history {
-    width: 30%;
-}
-
-
 
 .history-text {
     
@@ -19,3 +14,8 @@
     width: 100%;
     text-align: justify;
 }
+
+#more-history {
+    display: none;
+}
+
