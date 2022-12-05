@@ -4,9 +4,22 @@
 
 .fb-logo {
     width: 30px;
-    
 }
 
+.header1-image {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+h1.title {
+    position: absolute;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 700;
+    top: 2%;
+    left: 2%;
+}
 
 .history-text {
     width: 100%;
