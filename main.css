@@ -1,3 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3px;
+  
+  }
+
+ body {
+    padding: 30px, 30px;
+    
+  }
+
 .top-logo {
     height: 40px;
 }
@@ -12,7 +24,26 @@
     position: relative;
     text-align: center;
     color: white;
+    width: 100vw;
+    display: inline-block;
+    
 }
+.this {
+    display: inline-block;
+}
+
+.img-car-history {
+    display: inline;
+    
+    width: 100%;
+
+}
+
+.history {
+    display: inline-block;
+    
+}
+
 h1.title {
     position: absolute;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -24,9 +55,15 @@ h1.title {
 .history-text {
     width: 100%;
     text-align: justify;
+    display: inline-block;
 }
 
 #more-history {
     display: none;
 }
-
+ .admin-pic {
+    width: 100vw;
+ }
+.all-sponsors {
+    width: 100vw;
+}
