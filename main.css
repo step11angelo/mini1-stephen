@@ -5,15 +5,10 @@
   
   }
 
- body {
-    padding: 30px, 30px;
-    
-  }
-
   img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    
   }
 
 
@@ -34,6 +29,10 @@
     width: 100vw;
     display: inline-block;
     
+}
+
+h1 {
+    text-align: center ;
 }
 .this {
     display: inline-block;
@@ -61,13 +60,13 @@ h1.title {
 
 .history-text {
     width: 100%;
-    text-align: justify;
+    text-align: center;
     display: inline-block;
 }
-.pic-box {
-    background-color: thistle;
-    height: 200px;
+#btn-history {
+    text-align: center;
 }
+
 
 
 #more-history {
@@ -76,6 +75,34 @@ h1.title {
  .admin-pic {
     width: 100vw;
  }
-.all-sponsors {
-    width: 100vw;
+
+ .who-we-are {
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+.join-us {
+    display: flex;
+    justify-content: center;
+}
+
+.qr {
+    display: flex;
+    justify-content: center;
+}
+ .qr-code {
+    height: 500px;
+    width: auto;
+ }
+
+
+.pic-box {
+    padding: 5px;
+    border-radius: 30px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.buying {
+    margin-top: 100px;
 }
